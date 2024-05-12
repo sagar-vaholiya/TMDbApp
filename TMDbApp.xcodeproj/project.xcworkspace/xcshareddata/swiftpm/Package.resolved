@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TMDbNetworkSDK",
+        "repositoryURL": "https://github.com/sagar-vaholiya/TMDbNetworkSDK",
+        "state": {
+          "branch": null,
+          "revision": "7ca433a73aa3a7f2070fb0f23333b70f614f45e2",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
