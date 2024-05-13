@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4A0ED5702BF0F0AE00305261 /* TMDbNetworkSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4A0ED56F2BF0F0AE00305261 /* TMDbNetworkSDK */; };
+		4A826EED2BF116BA00EA6772 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A826EEC2BF116BA00EA6772 /* Extensions.swift */; };
+		4A826EF22BF134E200EA6772 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A826EF12BF134E200EA6772 /* ModelTests.swift */; };
+		4A826EF72BF1377D00EA6772 /* MovieListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A826EF62BF1377D00EA6772 /* MovieListViewModelTests.swift */; };
+		4A826F032BF1414700EA6772 /* TMDbNetworkSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4A826F022BF1414700EA6772 /* TMDbNetworkSDK */; };
 		4A944A2B2BED0AF900F2C499 /* TMDbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A2A2BED0AF900F2C499 /* TMDbApp.swift */; };
 		4A944A2D2BED0AF900F2C499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A2C2BED0AF900F2C499 /* ContentView.swift */; };
 		4A944A2F2BED0AFC00F2C499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A944A2E2BED0AFC00F2C499 /* Assets.xcassets */; };
 		4A944A322BED0AFC00F2C499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A944A312BED0AFC00F2C499 /* Preview Assets.xcassets */; };
-		4A944A3D2BED0AFD00F2C499 /* TMDbAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A3C2BED0AFD00F2C499 /* TMDbAppTests.swift */; };
-		4A944A482BED0AFD00F2C499 /* TMDbAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A472BED0AFD00F2C499 /* TMDbAppUITests.swift */; };
 		4A944A592BED0B2500F2C499 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A582BED0B2500F2C499 /* NetworkHelper.swift */; };
 		4A944A6F2BED1B8100F2C499 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A6D2BED1B8100F2C499 /* MovieList.swift */; };
 		4A944A702BED1B8100F2C499 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A6E2BED1B8100F2C499 /* Movie.swift */; };
 		4A944A912BED243500F2C499 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A944A902BED243500F2C499 /* MovieListViewModel.swift */; };
+		4AA8363E2BF2334B00F4B0FC /* MovieViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8363D2BF2334B00F4B0FC /* MovieViewModelTests.swift */; };
 		4AABA0FE2BEF3DE000936391 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABA0FD2BEF3DDF00936391 /* MovieItem.swift */; };
 		4AABA1032BEF432D00936391 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABA1022BEF432D00936391 /* AsyncImage.swift */; };
 		4AABA1082BEF43C100936391 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABA1072BEF43C100936391 /* MovieListView.swift */; };
@@ -35,16 +38,12 @@
 			remoteGlobalIDString = 4A944A262BED0AF900F2C499;
 			remoteInfo = TMDbApp;
 		};
-		4A944A442BED0AFD00F2C499 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A944A1F2BED0AF900F2C499 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A944A262BED0AF900F2C499;
-			remoteInfo = TMDbApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A826EEC2BF116BA00EA6772 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A826EF12BF134E200EA6772 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		4A826EF62BF1377D00EA6772 /* MovieListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTests.swift; sourceTree = "<group>"; };
 		4A944A272BED0AF900F2C499 /* TMDbApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDbApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A944A2A2BED0AF900F2C499 /* TMDbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbApp.swift; sourceTree = "<group>"; };
 		4A944A2C2BED0AF900F2C499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,15 +51,12 @@
 		4A944A312BED0AFC00F2C499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A944A332BED0AFC00F2C499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A944A382BED0AFD00F2C499 /* TMDbAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDbAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A944A3C2BED0AFD00F2C499 /* TMDbAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbAppTests.swift; sourceTree = "<group>"; };
 		4A944A3E2BED0AFD00F2C499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A944A432BED0AFD00F2C499 /* TMDbAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDbAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A944A472BED0AFD00F2C499 /* TMDbAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbAppUITests.swift; sourceTree = "<group>"; };
-		4A944A492BED0AFD00F2C499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A944A582BED0B2500F2C499 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		4A944A6D2BED1B8100F2C499 /* MovieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		4A944A6E2BED1B8100F2C499 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		4A944A902BED243500F2C499 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		4AA8363D2BF2334B00F4B0FC /* MovieViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModelTests.swift; sourceTree = "<group>"; };
 		4AABA0FD2BEF3DDF00936391 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
 		4AABA1022BEF432D00936391 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		4AABA1072BEF43C100936391 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
@@ -83,13 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A944A402BED0AFD00F2C499 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4A826F032BF1414700EA6772 /* TMDbNetworkSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +91,6 @@
 			children = (
 				4A944A292BED0AF900F2C499 /* TMDbApp */,
 				4A944A3B2BED0AFD00F2C499 /* TMDbAppTests */,
-				4A944A462BED0AFD00F2C499 /* TMDbAppUITests */,
 				4A944A282BED0AF900F2C499 /* Products */,
 				4AADFFFA2BEFE4FD00D63A7D /* Frameworks */,
 			);
@@ -112,7 +101,6 @@
 			children = (
 				4A944A272BED0AF900F2C499 /* TMDbApp.app */,
 				4A944A382BED0AFD00F2C499 /* TMDbAppTests.xctest */,
-				4A944A432BED0AFD00F2C499 /* TMDbAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,19 +131,12 @@
 		4A944A3B2BED0AFD00F2C499 /* TMDbAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				4A944A3C2BED0AFD00F2C499 /* TMDbAppTests.swift */,
+				4A826EF62BF1377D00EA6772 /* MovieListViewModelTests.swift */,
+				4AA8363D2BF2334B00F4B0FC /* MovieViewModelTests.swift */,
+				4A826EF12BF134E200EA6772 /* ModelTests.swift */,
 				4A944A3E2BED0AFD00F2C499 /* Info.plist */,
 			);
 			path = TMDbAppTests;
-			sourceTree = "<group>";
-		};
-		4A944A462BED0AFD00F2C499 /* TMDbAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4A944A472BED0AFD00F2C499 /* TMDbAppUITests.swift */,
-				4A944A492BED0AFD00F2C499 /* Info.plist */,
-			);
-			path = TMDbAppUITests;
 			sourceTree = "<group>";
 		};
 		4A944A642BED1B1200F2C499 /* Models */ = {
@@ -194,6 +175,7 @@
 			children = (
 				4A944A582BED0B2500F2C499 /* NetworkHelper.swift */,
 				4AADFFDF2BEFD28C00D63A7D /* NWMonitor.swift */,
+				4A826EEC2BF116BA00EA6772 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -242,27 +224,12 @@
 				4A944A3A2BED0AFD00F2C499 /* PBXTargetDependency */,
 			);
 			name = TMDbAppTests;
+			packageProductDependencies = (
+				4A826F022BF1414700EA6772 /* TMDbNetworkSDK */,
+			);
 			productName = TMDbAppTests;
 			productReference = 4A944A382BED0AFD00F2C499 /* TMDbAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4A944A422BED0AFD00F2C499 /* TMDbAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A944A522BED0AFD00F2C499 /* Build configuration list for PBXNativeTarget "TMDbAppUITests" */;
-			buildPhases = (
-				4A944A3F2BED0AFD00F2C499 /* Sources */,
-				4A944A402BED0AFD00F2C499 /* Frameworks */,
-				4A944A412BED0AFD00F2C499 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4A944A452BED0AFD00F2C499 /* PBXTargetDependency */,
-			);
-			name = TMDbAppUITests;
-			productName = TMDbAppUITests;
-			productReference = 4A944A432BED0AFD00F2C499 /* TMDbAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -277,10 +244,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					4A944A372BED0AFD00F2C499 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 4A944A262BED0AF900F2C499;
-					};
-					4A944A422BED0AFD00F2C499 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 4A944A262BED0AF900F2C499;
 					};
@@ -304,7 +267,6 @@
 			targets = (
 				4A944A262BED0AF900F2C499 /* TMDbApp */,
 				4A944A372BED0AFD00F2C499 /* TMDbAppTests */,
-				4A944A422BED0AFD00F2C499 /* TMDbAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,13 +282,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4A944A362BED0AFD00F2C499 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A944A412BED0AFD00F2C499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,6 +308,7 @@
 				4A944A6F2BED1B8100F2C499 /* MovieList.swift in Sources */,
 				4AABA1102BEF805000936391 /* MovieDetailView.swift in Sources */,
 				4AADFFCE2BEFCAC600D63A7D /* MovieViewModel.swift in Sources */,
+				4A826EED2BF116BA00EA6772 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,15 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A944A3D2BED0AFD00F2C499 /* TMDbAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A944A3F2BED0AFD00F2C499 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A944A482BED0AFD00F2C499 /* TMDbAppUITests.swift in Sources */,
+				4A826EF22BF134E200EA6772 /* ModelTests.swift in Sources */,
+				4A826EF72BF1377D00EA6772 /* MovieListViewModelTests.swift in Sources */,
+				4AA8363E2BF2334B00F4B0FC /* MovieViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,11 +329,6 @@
 			isa = PBXTargetDependency;
 			target = 4A944A262BED0AF900F2C499 /* TMDbApp */;
 			targetProxy = 4A944A392BED0AFD00F2C499 /* PBXContainerItemProxy */;
-		};
-		4A944A452BED0AFD00F2C499 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4A944A262BED0AF900F2C499 /* TMDbApp */;
-			targetProxy = 4A944A442BED0AFD00F2C499 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -588,44 +533,6 @@
 			};
 			name = Release;
 		};
-		4A944A532BED0AFD00F2C499 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TMDbAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.TMDbAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TMDbApp;
-			};
-			name = Debug;
-		};
-		4A944A542BED0AFD00F2C499 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TMDbAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.TMDbAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TMDbApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -656,15 +563,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A944A522BED0AFD00F2C499 /* Build configuration list for PBXNativeTarget "TMDbAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A944A532BED0AFD00F2C499 /* Debug */,
-				4A944A542BED0AFD00F2C499 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -680,6 +578,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		4A0ED56F2BF0F0AE00305261 /* TMDbNetworkSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A0ED56E2BF0F0AE00305261 /* XCRemoteSwiftPackageReference "TMDbNetworkSDK" */;
+			productName = TMDbNetworkSDK;
+		};
+		4A826F022BF1414700EA6772 /* TMDbNetworkSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4A0ED56E2BF0F0AE00305261 /* XCRemoteSwiftPackageReference "TMDbNetworkSDK" */;
 			productName = TMDbNetworkSDK;

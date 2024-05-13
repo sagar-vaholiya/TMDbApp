@@ -3,6 +3,7 @@
 //  TMDbApp
 
 import Foundation
+
 struct Movie : Codable {
 	let adult : Bool?
 	let backdrop_path : String?
@@ -55,5 +56,22 @@ struct Movie : Codable {
 		vote_average = try values.decodeIfPresent(Double.self, forKey: .vote_average)
 		vote_count = try values.decodeIfPresent(Int.self, forKey: .vote_count)
 	}
+    
+    init(adult: Bool?, backdrop_path: String?, genre_ids: [Int]?, id: Int?, original_language: String?, original_title: String?, overview: String?, popularity: Double?, poster_path: String?, release_date: String?, title: String?, video: Bool?, vote_average: Double?, vote_count: Int?) {
+        self.adult = adult
+        self.backdrop_path = backdrop_path
+        self.genre_ids = genre_ids
+        self.id = id
+        self.original_language = original_language
+        self.original_title = original_title
+        self.overview = overview
+        self.popularity = popularity
+        self.poster_path = poster_path
+        self.release_date = release_date
+        self.title = title
+        self.video = video
+        self.vote_average = vote_average
+        self.vote_count = vote_count
+    }
 
 }

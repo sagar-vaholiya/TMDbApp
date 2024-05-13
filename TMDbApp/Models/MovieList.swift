@@ -3,6 +3,7 @@
 //  TMDbApp
 
 import Foundation
+
 struct MovieList : Codable {
 	let page : Int?
 	let results : [Movie]?
@@ -16,6 +17,13 @@ struct MovieList : Codable {
 		case total_pages = "total_pages"
 		case total_results = "total_results"
 	}
+    
+    init(page: Int?, results: [Movie]?, total_pages: Int?, total_results: Int?) {
+        self.page = page
+        self.results = results
+        self.total_pages = total_pages
+        self.total_results = total_results
+    }
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)

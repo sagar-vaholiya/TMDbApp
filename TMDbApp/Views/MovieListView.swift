@@ -4,6 +4,7 @@
 
 import SwiftUI
 import Combine
+import TMDbNetworkSDK
 
 enum MovieType: String {
     case latest, popular
