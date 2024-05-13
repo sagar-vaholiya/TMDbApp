@@ -27,6 +27,12 @@ struct MovieDetailView: View {
                         .scaleEffect(0.5)
                 }
                 
+                HStack {
+                    Text(Image(systemName: "star.fill")).foregroundColor(.yellow) + Text(viewModel.rating)
+                    Text(viewModel.releaseDate)
+                        .fontWeight(.regular)
+                }
+                
                 VStack(alignment: .center, spacing: 5.0) {
                     Text(viewModel.title)
                         .font(.title2)
@@ -40,8 +46,3 @@ struct MovieDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
-//struct MovieDetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MovieDetailView(movie: Results())
-//    }
-//}
